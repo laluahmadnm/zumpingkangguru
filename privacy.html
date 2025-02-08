@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' href='gameplay/Pictures/favicon.png' type='image/x-icon'/>
+    <title>Zumping Kangguru</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff9d9;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 5px 10px;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: orange;
+            text-shadow: 2px 2px 3px #000;
+        }
+
+        .play-btn {
+            display: inline-block;
+            background-color: orange;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .play-btn:hover {
+            background-color: darkorange;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .icons img {
+            width: 60px;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            header nav {
+                justify-content: center;
+            }
+
+            .title {
+                font-size: 2rem;
+            }
+
+            .play-btn {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+
+            .icons img {
+                width: 50px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .title {
+                font-size: 1.8rem;
+            }
+
+            .play-btn {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
+
+            .icons img {
+                width: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="https://zumkang.biz.id/about">About</a>
+            <a href="https://zumkang.biz.id/privacy">Privacy</a>
+            <a href="https://zumkang.biz.id/disclaimer">Disclaimer</a>
+            <a href="https://zumkang.biz.id/contact">Contact</a>
+        </nav>
+    </header>
+  
+
+    <div class="container">
+        <h1 class="title">Kebijakan Privasi</h1>
+        <p class="content">
+            Privasi Anda sangat penting bagi kami. Halaman ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi yang diperoleh saat Anda menggunakan game <strong>Zumping Kangguru</strong>.
+        </p>
+    
+        <h2>1. Informasi yang Kami Kumpulkan</h2>
+        <p class="content">
+            Saat Anda menggunakan *Zumping Kangguru*, kami dapat mengumpulkan beberapa informasi, termasuk namun tidak terbatas pada:
+        </p>
+        <ul class="content">
+            <li>Data penggunaan game, seperti skor, level, dan pencapaian.</li>
+            <li>Informasi perangkat, termasuk tipe perangkat, sistem operasi, dan alamat IP.</li>
+            <li>Data analitik untuk meningkatkan pengalaman bermain.</li>
+        </ul>
+    
+        <h2>2. Penggunaan Informasi</h2>
+        <p class="content">
+            Informasi yang kami kumpulkan digunakan untuk:
+        </p>
+        <ul class="content">
+            <li>Meningkatkan dan mengoptimalkan pengalaman bermain.</li>
+            <li>Memantau performa game dan mengidentifikasi masalah teknis.</li>
+            <li>Memberikan layanan pelanggan dan dukungan teknis.</li>
+        </ul>
+    
+        <h2>3. Keamanan Data</h2>
+        <p class="content">
+            Kami berkomitmen untuk menjaga keamanan informasi pengguna dan mencegah akses yang tidak sah, penyalahgunaan, atau pengungkapan data pribadi Anda.
+        </p>
+    
+        <h2>4. Pihak Ketiga</h2>
+        <p class="content">
+            Kami tidak menjual, menyewakan, atau membagikan informasi pribadi Anda kepada pihak ketiga tanpa izin. Namun, kami dapat bekerja sama dengan layanan analitik atau iklan untuk meningkatkan pengalaman pengguna.
+        </p>
+    
+        <h2>5. Hak Pengguna</h2>
+        <p class="content">
+            Anda memiliki hak untuk:
+        </p>
+        <ul class="content">
+            <li>Meminta akses ke data yang kami kumpulkan.</li>
+            <li>Memperbarui atau menghapus informasi pribadi jika memungkinkan.</li>
+            <li>Menolak penggunaan data tertentu, seperti data analitik atau iklan.</li>
+        </ul>
+    
+        <h2>6. Perubahan Kebijakan</h2>
+        <p class="content">
+            Kebijakan privasi ini dapat diperbarui sewaktu-waktu. Kami menyarankan Anda untuk secara berkala meninjau halaman ini guna mengetahui perubahan terbaru.
+        </p>
+    
+        <h2>7. Kontak</h2>
+        <p class="content">
+            Jika Anda memiliki pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami melalui:
+        </p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:cafejoy06@gmail.com">cafejoy06@gmail.com</a></p>
+            <p><strong>WhatsApp:</strong> 0877-6154-7892</p>
+        </div>
+    </div>
+    
+    
+
+
+</body>
+</html>
